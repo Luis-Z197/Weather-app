@@ -112,7 +112,7 @@ export default function Album() {
               Welcome
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              This is a real-time weather application.
+              This is a weather application for viewing current weather data.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
