@@ -23,7 +23,7 @@ export default function Album() {
   const [weatherIco, setIcon] = useState('Rain')
 
   const getData = async () => {
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=62c127717633e854182f97784b9b4c49&units=metric`
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=API_KEY&units=metric`
     let response = await fetch(api)
     let data = await response.json()
     setTemperature({ main: 'Temperature °C', description: data.main.temp })
